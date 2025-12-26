@@ -1,0 +1,31 @@
+{
+  "name": "platform-economy-presentation",
+  "version": "2.0.0",
+  "description": "平台经济的劳动异化与阶级固化 - 马克思主义批判分析演示文稿",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8080",
+    "serve": "python3 -m http.server 3000"
+  },
+  "keywords": [
+    "reveal.js",
+    "presentation",
+    "platform-economy",
+    "gig-economy",
+    "marxism",
+    "labor-alienation",
+    "algorithm-capitalism"
+  ],
+  "author": "第十七组",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/platform-economy-presentation.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

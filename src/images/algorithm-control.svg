@@ -1,0 +1,66 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    算法控制的新形式:数字时代的劳动异化
+  </text>
+
+  <!-- 中心:算法系统 -->
+  <circle cx="450" cy="300" r="80" fill="#34495e" opacity="0.9"/>
+  <text x="450" y="295" font-size="18" font-weight="bold" text-anchor="middle" fill="#fff">算法</text>
+  <text x="450" y="315" font-size="16" text-anchor="middle" fill="#fff">控制系统</text>
+
+  <!-- 连接线和控制节点 -->
+
+  <!-- 1. 工作分配 (上左) -->
+  <line x1="380" y1="250" x2="200" y2="120" stroke="#e74c3c" stroke-width="3"/>
+  <circle cx="200" cy="120" r="50" fill="#e74c3c" opacity="0.8"/>
+  <text x="200" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">工作分配</text>
+  <text x="200" y="132" font-size="11" text-anchor="middle" fill="#fff">不透明算法</text>
+
+  <rect x="100" y="150" width="200" height="60" fill="#ecf0f1" stroke="#e74c3c" stroke-width="2" rx="5"/>
+  <text x="200" y="170" font-size="12" text-anchor="middle" fill="#555">• 黑箱决策机制</text>
+  <text x="200" y="188" font-size="12" text-anchor="middle" fill="#555">• 工人无法预知收入</text>
+  <text x="200" y="206" font-size="12" text-anchor="middle" fill="#555">• 订单分配不公平</text>
+
+  <!-- 2. 绩效监控 (上右) -->
+  <line x1="520" y1="250" x2="700" y2="120" stroke="#f39c12" stroke-width="3"/>
+  <circle cx="700" cy="120" r="50" fill="#f39c12" opacity="0.8"/>
+  <text x="700" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">绩效监控</text>
+  <text x="700" y="132" font-size="11" text-anchor="middle" fill="#fff">实时评分</text>
+
+  <rect x="600" y="150" width="200" height="60" fill="#ecf0f1" stroke="#f39c12" stroke-width="2" rx="5"/>
+  <text x="700" y="170" font-size="12" text-anchor="middle" fill="#555">• 全天候监控追踪</text>
+  <text x="700" y="188" font-size="12" text-anchor="middle" fill="#555">• 一次差评即封号</text>
+  <text x="700" y="206" font-size="12" text-anchor="middle" fill="#555">• 工人处于恐惧中</text>
+
+  <!-- 3. 工资计算 (下左) -->
+  <line x1="380" y1="350" x2="200" y2="480" stroke="#9b59b6" stroke-width="3"/>
+  <circle cx="200" cy="480" r="50" fill="#9b59b6" opacity="0.8"/>
+  <text x="200" y="475" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">工资计算</text>
+  <text x="200" y="492" font-size="11" text-anchor="middle" fill="#fff">动态定价</text>
+
+  <rect x="100" y="390" width="200" height="60" fill="#ecf0f1" stroke="#9b59b6" stroke-width="2" rx="5"/>
+  <text x="200" y="410" font-size="12" text-anchor="middle" fill="#555">• 动态调整报酬</text>
+  <text x="200" y="428" font-size="12" text-anchor="middle" fill="#555">• 事前不知价格</text>
+  <text x="200" y="446" font-size="12" text-anchor="middle" fill="#555">• 平台单方定价权</text>
+
+  <!-- 4. 惩罚机制 (下右) -->
+  <line x1="520" y1="350" x2="700" y2="480" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="700" cy="480" r="50" fill="#c0392b" opacity="0.8"/>
+  <text x="700" y="475" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">惩罚机制</text>
+  <text x="700" y="492" font-size="11" text-anchor="middle" fill="#fff">算法封禁</text>
+
+  <rect x="600" y="390" width="200" height="60" fill="#ecf0f1" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="700" y="410" font-size="12" text-anchor="middle" fill="#555">• 自动封禁账号</text>
+  <text x="700" y="428" font-size="12" text-anchor="middle" fill="#555">• 申诉困难低效</text>
+  <text x="700" y="446" font-size="12" text-anchor="middle" fill="#555">• 生计瞬间断绝</text>
+
+  <!-- 底部总结框 -->
+  <rect x="150" y="540" width="600" height="50" fill="#fef9e7" stroke="#d4ac6e" stroke-width="2" rx="8"/>
+  <text x="450" y="560" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    "在算法的注视下,工人成为了被量化、被监控、被操纵的数据点。"
+  </text>
+  <text x="450" y="578" font-size="12" text-anchor="middle" fill="#888">
+    传统雇佣关系的控制升级为全方位的数字专制
+  </text>
+</svg>

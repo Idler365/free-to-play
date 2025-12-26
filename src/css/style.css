@@ -1,0 +1,219 @@
+/* 平台经济演示文稿 - 自定义样式 */
+
+:root {
+    --r-main-font: 'Noto Serif SC', 'Source Serif Pro', Georgia, serif;
+    --r-heading-font: 'Noto Sans SC', 'Source Sans Pro', Helvetica, sans-serif;
+    --r-main-color: #2c3e50;
+    --r-heading-color: #34495e;
+    --r-link-color: #3498db;
+    --r-selection-background-color: #d4e4f7;
+    --r-background-color: #ffffff;
+}
+
+/* 标题样式 */
+.reveal h1 {
+    font-size: 2.0em;
+    margin-bottom: 0.4em;
+}
+
+.reveal h2 {
+    font-size: 1.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.reveal h3 {
+    font-size: 1.2em;
+    color: #5a6c7d;
+    margin: 0.2em 0;
+}
+
+.reveal .subtitle {
+    font-size: 0.75em;
+    color: #7f8c8d;
+    margin-top: -0.3em;
+    font-style: italic;
+}
+
+/* 高亮样式 */
+.reveal .highlight-red {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+.reveal .highlight-box {
+    background: #ecf0f1;
+    border-left: 4px solid #5a6c7d;
+    padding: 12px;
+    margin: 12px 0;
+    font-size: 0.85em;
+}
+
+.reveal .highlight-box ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+/* 数据框样式 */
+.reveal .data-box {
+    background: #e8f4f8;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
+.reveal .data-box ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+/* 理论框样式 */
+.reveal .theory-box {
+    background: #fef9e7;
+    border: 2px solid #d4ac6e;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 0.85em;
+}
+
+/* 引用样式 */
+.reveal .quote {
+    font-style: italic;
+    border-left: 3px solid #95a5a6;
+    padding-left: 15px;
+    margin: 15px 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+/* 列表样式 */
+.reveal ul, .reveal ol {
+    font-size: 0.85em;
+    margin: 8px 0;
+    padding-left: 25px;
+}
+
+.reveal li {
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+/* 两列布局 */
+.reveal .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.reveal .two-column ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.reveal .column-item {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 0.8em;
+}
+
+/* 其他样式 */
+.reveal .footnote {
+    font-size: 0.55em;
+    color: #888;
+    margin-top: 20px;
+}
+
+.reveal .emphasis {
+    background: #fff9e6;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.reveal section {
+    text-align: left;
+}
+
+.reveal section.center {
+    text-align: center;
+}
+
+.reveal .small-text {
+    font-size: 0.75em;
+}
+
+/* 图片样式 */
+.reveal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.reveal .image-caption {
+    font-size: 0.6em;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* 图表容器 */
+.reveal .chart-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 15px 0;
+}
+
+/* 三列布局 */
+.reveal .three-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.reveal .three-column .column-item {
+    font-size: 0.7em;
+}
+
+/* 时间线样式 */
+.reveal .timeline {
+    position: relative;
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.reveal .timeline-item {
+    position: relative;
+    padding: 10px 0;
+    border-left: 2px solid #3498db;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.reveal .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3498db;
+}
+
+.reveal .timeline-year {
+    font-weight: bold;
+    color: #3498db;
+    font-size: 0.9em;
+}
+
+.reveal .timeline-content {
+    font-size: 0.75em;
+    margin-top: 5px;
+}

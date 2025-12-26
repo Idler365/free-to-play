@@ -1,0 +1,67 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    全球劳动收入占GDP比重变化趋势 (2014-2024)
+  </text>
+
+  <!-- 坐标轴 -->
+  <line x1="80" y1="320" x2="720" y2="320" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="80" x2="80" y2="320" stroke="#333" stroke-width="2"/>
+
+  <!-- Y轴刻度和标签 -->
+  <text x="50" y="90" font-size="12" text-anchor="end" fill="#555">54%</text>
+  <line x1="75" y1="85" x2="80" y2="85" stroke="#333" stroke-width="1"/>
+
+  <text x="50" y="150" font-size="12" text-anchor="end" fill="#555">53.5%</text>
+  <line x1="75" y1="145" x2="80" y2="145" stroke="#333" stroke-width="1"/>
+
+  <text x="50" y="210" font-size="12" text-anchor="end" fill="#555">53%</text>
+  <line x1="75" y1="205" x2="80" y2="205" stroke="#333" stroke-width="1"/>
+
+  <text x="50" y="270" font-size="12" text-anchor="end" fill="#555">52.5%</text>
+  <line x1="75" y1="265" x2="80" y2="265" stroke="#333" stroke-width="1"/>
+
+  <text x="50" y="325" font-size="12" text-anchor="end" fill="#555">52%</text>
+
+  <!-- X轴标签 -->
+  <text x="140" y="345" font-size="12" text-anchor="middle" fill="#555">2014</text>
+  <text x="230" y="345" font-size="12" text-anchor="middle" fill="#555">2016</text>
+  <text x="320" y="345" font-size="12" text-anchor="middle" fill="#555">2018</text>
+  <text x="410" y="345" font-size="12" text-anchor="middle" fill="#555">2020</text>
+  <text x="500" y="345" font-size="12" text-anchor="middle" fill="#555">2022</text>
+  <text x="590" y="345" font-size="12" text-anchor="middle" fill="#555">2024</text>
+
+  <!-- 网格线 -->
+  <line x1="80" y1="85" x2="720" y2="85" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="80" y1="145" x2="720" y2="145" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="80" y1="205" x2="720" y2="205" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="80" y1="265" x2="720" y2="265" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- 数据线 -->
+  <!-- 53.0% -> 52.9% -> 52.8% -> 52.7% -> 52.5% -> 52.4% -->
+  <polyline points="140,205 230,210 320,215 410,220 500,250 590,260 680,265"
+            fill="none" stroke="#e74c3c" stroke-width="3"/>
+
+  <!-- 数据点 -->
+  <circle cx="140" cy="205" r="5" fill="#e74c3c"/>
+  <circle cx="230" cy="210" r="5" fill="#e74c3c"/>
+  <circle cx="320" cy="215" r="5" fill="#e74c3c"/>
+  <circle cx="410" cy="220" r="5" fill="#e74c3c"/>
+  <circle cx="500" cy="250" r="5" fill="#e74c3c"/>
+  <circle cx="590" cy="260" r="5" fill="#e74c3c"/>
+  <circle cx="680" cy="265" r="5" fill="#e74c3c"/>
+
+  <!-- 标注 -->
+  <text x="140" y="190" font-size="11" text-anchor="middle" fill="#e74c3c" font-weight="bold">53.0%</text>
+  <text x="680" y="280" font-size="11" text-anchor="middle" fill="#e74c3c" font-weight="bold">52.4%</text>
+
+  <!-- 箭头指示下降 -->
+  <path d="M 650 100 L 680 270" stroke="#c0392b" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <polygon points="680,270 675,260 685,260" fill="#c0392b"/>
+  <text x="640" y="95" font-size="13" fill="#c0392b" font-weight="bold">-0.6%</text>
+
+  <!-- 数据来源 -->
+  <text x="400" y="380" font-size="11" text-anchor="middle" fill="#888" font-style="italic">
+    数据来源: ILO《世界就业和社会展望2025》
+  </text>
+</svg>
