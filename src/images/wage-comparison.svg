@@ -1,0 +1,75 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 标题 -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    美国平台工人时薪 vs 法定标准对比
+  </text>
+  <text x="400" y="55" font-size="14" text-anchor="middle" fill="#7f8c8d">
+    (德克萨斯州,2025年数据)
+  </text>
+
+  <!-- 坐标轴 -->
+  <line x1="120" y1="370" x2="720" y2="370" stroke="#333" stroke-width="2"/>
+  <line x1="120" y1="100" x2="120" y2="370" stroke="#333" stroke-width="2"/>
+
+  <!-- Y轴标签 -->
+  <text x="60" y="110" font-size="12" text-anchor="end" fill="#555">$18</text>
+  <line x1="115" y1="105" x2="120" y2="105" stroke="#333" stroke-width="1"/>
+
+  <text x="60" y="160" font-size="12" text-anchor="end" fill="#555">$15</text>
+  <line x1="115" y1="155" x2="120" y2="155" stroke="#333" stroke-width="1"/>
+
+  <text x="60" y="210" font-size="12" text-anchor="end" fill="#555">$12</text>
+  <line x1="115" y1="205" x2="120" y2="205" stroke="#333" stroke-width="1"/>
+
+  <text x="60" y="260" font-size="12" text-anchor="end" fill="#555">$9</text>
+  <line x1="115" y1="255" x2="120" y2="255" stroke="#333" stroke-width="1"/>
+
+  <text x="60" y="310" font-size="12" text-anchor="end" fill="#555">$6</text>
+  <line x1="115" y1="305" x2="120" y2="305" stroke="#333" stroke-width="1"/>
+
+  <text x="60" y="360" font-size="12" text-anchor="end" fill="#555">$3</text>
+  <line x1="115" y1="355" x2="120" y2="355" stroke="#333" stroke-width="1"/>
+
+  <text x="60" y="375" font-size="12" text-anchor="end" fill="#555">$0</text>
+
+  <!-- 网格线 -->
+  <line x1="120" y1="105" x2="720" y2="105" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="120" y1="155" x2="720" y2="155" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="120" y1="205" x2="720" y2="205" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="120" y1="255" x2="720" y2="255" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="120" y1="305" x2="720" y2="305" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="120" y1="355" x2="720" y2="355" stroke="#ddd" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- 柱状图 -->
+  <!-- 平台工人实际时薪: $5.12 -->
+  <rect x="180" y="320" width="100" height="50" fill="#e74c3c" opacity="0.8"/>
+  <text x="230" y="305" font-size="14" font-weight="bold" text-anchor="middle" fill="#e74c3c">$5.12</text>
+  <text x="230" y="395" font-size="12" text-anchor="middle" fill="#555">平台工人</text>
+  <text x="230" y="410" font-size="12" text-anchor="middle" fill="#555">实际时薪</text>
+
+  <!-- 联邦最低工资: $7.25 -->
+  <rect x="320" y="280" width="100" height="90" fill="#f39c12" opacity="0.8"/>
+  <text x="370" y="265" font-size="14" font-weight="bold" text-anchor="middle" fill="#f39c12">$7.25</text>
+  <text x="370" y="395" font-size="12" text-anchor="middle" fill="#555">联邦</text>
+  <text x="370" y="410" font-size="12" text-anchor="middle" fill="#555">最低工资</text>
+
+  <!-- 生活工资: $17.00 -->
+  <rect x="460" y="125" width="100" height="245" fill="#27ae60" opacity="0.8"/>
+  <text x="510" y="110" font-size="14" font-weight="bold" text-anchor="middle" fill="#27ae60">$17.00</text>
+  <text x="510" y="395" font-size="12" text-anchor="middle" fill="#555">德州</text>
+  <text x="510" y="410" font-size="12" text-anchor="middle" fill="#555">生活工资</text>
+
+  <!-- 差距标注 -->
+  <!-- 差距1: -29% -->
+  <path d="M 230 320 L 230 290 L 370 290 L 370 280" stroke="#c0392b" stroke-width="2" fill="none"/>
+  <text x="300" y="280" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">-29%</text>
+
+  <!-- 差距2: -70% -->
+  <path d="M 230 320 L 230 230 L 510 230 L 510 125" stroke="#c0392b" stroke-width="2" fill="none"/>
+  <text x="370" y="220" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">-70%</text>
+
+  <!-- 数据来源 -->
+  <text x="400" y="440" font-size="11" text-anchor="middle" fill="#888" font-style="italic">
+    数据来源: Human Rights Watch "The Gig Trap" (2025年5月)
+  </text>
+</svg>
